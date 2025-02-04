@@ -2,7 +2,13 @@ const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 
 yesBtn.addEventListener("click", () => {
-    alert("yayayayayayyay, SEE U SOON I LOVE YOU MY VALENTINE! ❤️🥰");
+     document.body.innerHTML = `
+        
+   <h1>yayayayayayyay, I can't wait to experience another priceless memory w you. SEE U SOON I LOVE YOU MY VALENTINE! ❤️🥰<h1>
+   <img src="your-love-image.jpg" alt="I Love You" class="heart-image">
+   
+        </div>
+    `;
 });
 
 noBtn.addEventListener("mouseover", () => {
